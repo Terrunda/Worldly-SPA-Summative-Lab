@@ -1,0 +1,23 @@
+{
+  "name": "worldly-spa-summative-lab",
+  "version": "1.0.0",
+  "description": "Task: Create a SPA that enables users to search for a word and retrieve information pertaining to that word.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terrunda/Worldly-SPA-Summative-Lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Terrunda/Worldly-SPA-Summative-Lab/issues"
+  },
+  "homepage": "https://github.com/Terrunda/Worldly-SPA-Summative-Lab#readme"
+}
