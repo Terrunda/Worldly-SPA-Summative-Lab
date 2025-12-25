@@ -49,7 +49,7 @@ function handleData(arrayOfObjectData) {
     if (singlePhonetic) {
         const singlePhoneticElement = document.createElement('p');
         singlePhoneticElement.style.fontStyle = "italic";
-        singlePhoneticElement.textContent = singlePhonetic;
+        singlePhoneticElement.textContent = `Phonetic: ` + singlePhonetic;
         addElementTODOM('current-word-container', singlePhoneticElement);
     };
 

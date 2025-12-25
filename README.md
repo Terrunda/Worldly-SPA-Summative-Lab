@@ -1,7 +1,15 @@
 # Worldly-SPA-Summative-Lab
+Wordly: Online Language Learning Platform
+Wordly is a Single Page Application (SPA) designed to help users search for word definitions and information in real-time.
 
-Task: Create a SPA that enables users to search for a word and retrieve information pertaining to that word.
+## eatures
+-Search form: Retrieve word definitions, phonetics,antonyms  synonyms.
 
-Expectation: Wordly, an online language learning platform is a `interactive dictionary feature`.
+## API Reference
+This project utilizes the Free Dictionary API to fetch word data.
+Link : https://dictionaryapi.dev/
 
-Challenge: Accessing saved words and a user saving their favorite terms 
+## Definitions
+- Part of speech
+- Phonetic transcriptions
+- Audio pronunciations (if available)
