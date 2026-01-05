@@ -35,7 +35,6 @@ function handleData(arrayOfObjectData) {
     document.getElementById('word-definition-container').innerHTML = '';
 
     const divContainer = document.createElement('div');
-    divContainer.className = "word-container"; 
     divContainer.id = "current-word-container"; 
     addElementTODOM('word-definition-container', divContainer);
 
@@ -62,6 +61,11 @@ function handleData(arrayOfObjectData) {
     for (let phoneticElement of wordData.phonetics) {
         handlePhonetics(phoneticElement);
     };
+
+    let wordDefinitionContainer = document.getElementById('word-definition-container');
+    wordDefinitionContainer.style.border = "2px solid #333";
+    wordDefinitionContainer.style.borderRadius = "5px";
+
 };
 
 // Used in handleData
